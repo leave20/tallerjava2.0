@@ -4,6 +4,11 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+/**
+ * La serialización es el objeto convertido en bites
+ * dicho objeto serializado lo podemos llevar a distintos recursos y
+ * volver a deserializarlo
+ */
 
 public class Employee implements Serializable {
     private final String name;
